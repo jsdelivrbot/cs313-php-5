@@ -1,0 +1,136 @@
+body {
+	background-color: #dee8f7;
+}
+
+.mainTitle {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	margin-top: 50px;
+}
+
+.name {
+	font-size: 55px;
+}
+
+.label {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.slideShowContainer {
+	position:relative;
+	max-width:500px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+
+.slideButtonLeft {
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	color:#fff!important;
+	background-color:#000!important;
+	position:absolute;
+	top:50%;
+	left:0%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(-0%,-50%);
+}
+
+.slideButtonRight {
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	color:#fff!important;
+	background-color:#000!important;
+	position:absolute;
+	top:50%;
+	right:0%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(0%,-50%);
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.mySlides {
+	width: 100%;
+}
+
+.top {
+	top:0;
+	position:fixed;
+	width:100%;
+	z-index:1
+}
+
+.navBar {
+	width:100%;
+	overflow: hidden;
+	background-color: #93b3e5;
+	color: white;
+	font-size: 20px;
+}
+.navBar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navBar a.active {
+
+}
+
+.navBar a:hover {
+	background-color: white;
+	color: #dee8f7;
+}
+.navBar img {
+	float:right!important;
+	border-radius:50%;
+	width: 45px;
+}
+
+.gifCard {
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+	margin: inherit;
+	vertical-align: middle;
+	display: block;
+    margin: 0 auto;
+}
+
+a {
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+    margin: 0 auto;
+}
