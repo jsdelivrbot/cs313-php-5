@@ -1,9 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello World</title>
+	<title>Jayton's Home page</title>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="homepageStyle.css">
+	<script type="text/javascript" src="homepageScript.js"></script>
 </head>
-<body>
-<h1>Hello World!</h1>
+<body onload="showDivs()">
+<div class="top">
+<div class="navBar">
+	<a href="#" class="active">Home</a>
+	<a href="assignments.html">Assignments</a>
+	<img src="1T017804382_Avatar.jpg">
+</div>
+</div>
+<h1 class="mainTitle">I am <span class="name"> Jayton Birch </span>. Welcome to my homepage.</h1>
+
+<h2 class="label">Here are some pictures of my life. Click the arrows to slide through.</h2>
+
+<div class="slideShowContainer">
+	<img class="mySlides" src="IMG_3331-ANIMATION.gif">
+	<img class="mySlides rotate90" src="IMG_5666.jpg">
+	<img class="mySlides rotate90" src="IMG_5270.jpg">
+	<img class="mySlides rotate90" src="IMG_4647.jpg">
+	<button class="slideButtonLeft" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="slideButtonRight" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<h2 class="label">Here are some of my favorite things represented in gifs...</h2>
+
+<img class="gifCard" src="https://media.giphy.com/media/FS1i60DvLNC4E/giphy.gif">
+<h2 class="label">I love Star Wars and can't wait for The Last Jedi.</h2>
+<img class="gifCard" src="https://media.giphy.com/media/MILDMH2jLS6gE/giphy.gif">
+<h2 class="label">I am a Marvel Movie fanatic.</h2>
+<img class="gifCard" src="https://media.giphy.com/media/ukMiDlCmdv2og/giphy.gif">
+<h2 class="label">I love to develop software. Although I find it relaxing, I sometimes feel like this guy</h2>
+<a href="assignments.html" class="linkButton">CLICK HERE TO SEE ASSIGNMENTS</a>
 </body>
 </html>
