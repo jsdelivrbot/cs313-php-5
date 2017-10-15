@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="scriptureStyle.css">
+
+	<title></title>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="scripturesForm.html">Scriptures</a></li>
+		<li><a href="journal.php">Journal</a></li>
+		<li><a href="about.html">About</a></li>	  
+	</ul>
+	<div class="pageContent">
+	<h1>Scripture Journal</h1>
+	<form action="scripturesDatabase.php" method="post">
+		<p>Select Volume: </p>
+		<select name="volume">
+			<option value="Old Testament">Old Testament</option>
+			<option value="New Testament">New Testament</option>
+			<option value="Book of Mormon">Book of Mormon</option>
+			<option value="Doctrine and Covenants">Doctrine and Covenants</option>
+			<option value="Pearl of Great Price">Pearl of Great Price</option>
+		</select>
+		<input type="submit">
+	</form>
+	</div>
+</body>
+</html>
