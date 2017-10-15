@@ -15,15 +15,8 @@
 	<h1>Scripture Journal</h1>
 	<?php  
 	session_start();
-		try {
-			$user = 'postgres';
-			$password = '4434Baptism';
-			$db = new PDO('pgsql:host=127.0.0.1;dbname=postgres', $user, $password);
-		} catch (PDOException $ex)
-			{
-			  echo 'Error!: ' . $ex->getMessage();
-			  die();
-			}
+		require "dbConnect.php";
+		$db = get_db();
 		$book = $_POST['book'];
 		$_SESSION["book"] = $book;
 		$volume = $_SESSION['volume'];

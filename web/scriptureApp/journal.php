@@ -16,15 +16,8 @@
 	<h2 style="color: red">This uses a hard coded user id to call one test user from the database to test read-only function</h2>
 	<?php  
 	session_start();
-		try {
-			$user = 'postgres';
-			$password = '4434Baptism';
-			$db = new PDO('pgsql:host=127.0.0.1;dbname=postgres', $user, $password);
-		} catch (PDOException $ex)
-			{
-			  echo 'Error!: ' . $ex->getMessage();
-			  die();
-			}
+		require "dbConnect.php";
+		$db = get_db();
 		echo "<br>";
 		// For the read only assignment I will use a hard coded user.
 		$userId = 1; 
