@@ -23,16 +23,23 @@
 		echo "<h2>$book</h2>";
 		echo "<h2>Chapter $chapter</h2>";
 		echo "<br>";
-		$stmt = $db->prepare('SELECT DISTINCT verse, content FROM scriptures WHERE book=:book AND chapter=:chapter ORDER BY verse');
+		$stmt = $db->prepare('SELECT DISTINCT id, verse, content FROM scriptures WHERE book=:book AND chapter=:chapter ORDER BY verse');
 		$stmt->bindValue(':book', $book, PDO::PARAM_STR);
 		$stmt->bindValue(':chapter', $chapter, PDO::PARAM_INT);
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 		foreach ($rows as $row) {
-			echo "<br><p>". $row['verse'] . " " . $row['content'] . "<br>";
+			echo '<b>'.$row['verse'].'   '. '</b>';
+			echo "<a href=";
+			echo "addNote.php?scriptureid=";
+			echo $row['id'];
+			echo ">[Add Note]</a>";
+			echo $row['content'];
+			echo '<br>';
 		}
 		
 	?>
+
 	</div>
 </body>
 </html>

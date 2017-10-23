@@ -13,7 +13,6 @@
 	</ul>
 	<div class="pageContent">
 	<h1>Scripture Journal</h1>
-	<h2 style="color: red">This uses a hard coded user id to call one test user from the database to test read-only function</h2>
 	<?php  
 	session_start();
 		require "dbConnect.php";
@@ -25,23 +24,32 @@
 		$stmt->bindValue(':userId', $userId, PDO::PARAM_INT);
 		$stmt->execute();
 		$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+		echo '<h2>Notes</h2>';
 		echo '<table>';
 		echo '<tr>
-			    <th>Number</th>
 			    <th>Content</th>
 			    <th>Related Scripture</th>
+			    <th>Related Topics</th>
 			    <th>Date</th>
 			  </tr>';
 		foreach ($rows as $row) {
 			$scriptureId = $row['scripture_id'];
 			echo "<tr>";
-			echo "<td>". $row['id'] . "</td>";
 			echo "<td>". $row['content'] . "</td>";
 			$stmt1 = $db->prepare('SELECT book, chapter, verse FROM public.scriptures WHERE id=:scriptureId');
 			$stmt1->bindValue(':scriptureId', $scriptureId, PDO::PARAM_INT);
 			$stmt1->execute();
 			$rows1 = $stmt1->fetchAll(PDO::FETCH_ASSOC);
 			echo "<td>" . $rows1[0]['book'] . " " . $rows1[0]['chapter'] . ":" . $rows1[0]['verse'];
+			$stmt2 = $db->prepare('SELECT name from topics t INNER JOIN notes_topic nt ON nt.topic_id = t.id WHERE nt.note_id = :note_id;');
+			$stmt2->bindValue(':note_id', $row['id'], PDO::PARAM_INT);
+			$stmt2->execute();
+			echo '<td>';
+			while ($topicRow = $stmt2->fetch(PDO::FETCH_ASSOC)) {
+				echo $topicRow['name'];
+				echo '<br>';
+			}
+			echo '</td>';
 			echo "<td>". $row['date'] . "</td>";
 			echo "</tr>";
 		}
