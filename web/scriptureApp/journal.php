@@ -7,9 +7,12 @@
 </head>
 <body>
 	<ul>
-		<li><a href="scripturesForm.html">Scriptures</a></li>
+		<li><a href="scripturesForm.php">Scriptures</a></li>
 		<li><a class="active" href="journal.php">Journal</a></li>
-		<li><a href="about.html">About</a></li>	  
+		<li><a href="about.php">About</a></li>
+		<br>
+		<br>
+		<li><a class = "logout" href="logout.php">Logout</a></li>	  
 	</ul>
 	<div class="pageContent">
 	<h1>Scripture Journal</h1>
@@ -18,8 +21,7 @@
 		require "dbConnect.php";
 		$db = get_db();
 		echo "<br>";
-		// For the read only assignment I will use a hard coded user.
-		$userId = 1; 
+		$userId = $_SESSION['user_id']; 
 		$stmt = $db->prepare('SELECT * FROM public.notes WHERE user_id=:userId ORDER BY date');
 		$stmt->bindValue(':userId', $userId, PDO::PARAM_INT);
 		$stmt->execute();
@@ -51,11 +53,14 @@
 			}
 			echo '</td>';
 			echo "<td>". $row['date'] . "</td>";
+			echo "<td><a href='editnote.php?noteid=". $row['id'] . "''>Edit</a></td>";
 			echo "</tr>";
+
 		}
 		echo '</table>';
 		
 	?>
+
 	</div>
 </body>
 </html>

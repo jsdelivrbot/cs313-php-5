@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
-
 <?php  
 	session_start();
 		require "dbConnect.php";
 		$db = get_db();
 		
-		// For the read only assignment I will use a hard coded user.
-		$userId = 1; 
+		
+		$userId = $_SESSION['user_id']; 
 		$scriptureid = $_SESSION['scriptureid'];
 		$noteContent = $_POST['noteContent'];
 		$topicsIds = $_POST['topicsIds'];
-		echo var_dump($_POST);
 		$date = date("Y-m-d");
 		$stmt = $db->prepare('INSERT INTO notes (content, user_id, scripture_id, date) VALUES (:noteContent, :userid, :scriptureid, :date)');
 		$stmt->bindValue(':scriptureid', $scriptureid, PDO::PARAM_INT);
@@ -41,6 +32,5 @@
 		die();
 	
 ?>
-</body>
-</html>
+
 		

@@ -1,0 +1,732 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"password_",
+				"password_hashed"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"top",
+				"topicRow"
+			],
+			[
+				"note",
+				"note_id"
+			],
+			[
+				"scri",
+				"scriptureId"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"n",
+				"NULL"
+			],
+			[
+				"displ",
+				"displayCharArray"
+			],
+			[
+				"row",
+				"rows1"
+			],
+			[
+				"us",
+				"userId"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"verse",
+				"verse"
+			],
+			[
+				"e",
+				"echo"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"get",
+				"getNextTagNameAfterIndex"
+			],
+			[
+				"str",
+				"strWithoutRightBracket"
+			],
+			[
+				"replace",
+				"replaceNextRightBracketAfterIndex"
+			],
+			[
+				"strW",
+				"strWithoutRightBracketIndex"
+			],
+			[
+				"strWithoutRightBracke",
+				"strWithoutRightBracketIndex"
+			],
+			[
+				"s",
+				"strIndex"
+			],
+			[
+				"strWithoutRi",
+				"strWithoutLeftBracketIndex"
+			],
+			[
+				"strWI",
+				"strWithoutRightBracket"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"tag",
+				"tagName"
+			],
+			[
+				"w",
+				"strWithoutBrackets"
+			],
+			[
+				"i",
+				"index"
+			],
+			[
+				"sanit",
+				"sanitizedInput"
+			],
+			[
+				"sa",
+				"sanitizedInput"
+			],
+			[
+				"val",
+				"validNamesVector"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"t",
+				"tagName"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ca",
+				"cartButton"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"sessi",
+				"session_start"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-top"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"sub",
+				"subTodoElem"
+			],
+			[
+				"to",
+				"todoElem"
+			],
+			[
+				"su",
+				"subTodoElem"
+			],
+			[
+				"cre",
+				"createElement"
+			],
+			[
+				"todo",
+				"todoElem"
+			],
+			[
+				"tod",
+				"todoElem"
+			],
+			[
+				"create",
+				"createTextNode"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"xp",
+				"xpPerc"
+			],
+			[
+				"hea",
+				"healthPercString"
+			],
+			[
+				"he",
+				"healthPercString"
+			],
+			[
+				"ha",
+				"habiticaInfo"
+			],
+			[
+				"silve",
+				"silverString"
+			],
+			[
+				"creat",
+				"createElement"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"lv",
+				"lvlString"
+			],
+			[
+				"na",
+				"nameString"
+			],
+			[
+				"set",
+				"setItem"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"doc",
+				"docName"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"card",
+				"cardTypeOutput"
+			],
+			[
+				"name",
+				"nameForm"
+			],
+			[
+				"zi",
+				"zipOutput"
+			],
+			[
+				"phone",
+				"phoneOutput"
+			],
+			[
+				"da",
+				"dateOutput"
+			],
+			[
+				"city",
+				"cityOutput"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"border-t",
+				"border-style"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"tot",
+				"totalItemsPrice"
+			],
+			[
+				"item",
+				"itemCount3"
+			],
+			[
+				"see",
+				"sessionStorage"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"it",
+				"itemCount1"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"the",
+				"theMoney"
+			],
+			[
+				"onKe",
+				"onkeyup\tAttr"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-right"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scripturesDatabase.php",
+			"settings":
+			{
+				"buffer_size": 1277,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/scriptureApp/scripturesDatabase.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/scriptureApp/chapters.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/scriptureApp/journal.php",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/shoppingCart/browse.php",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/shoppingCart/cart.php",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/about.html",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/journal.php",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/chapters.php",
+		"/C/Users/Jayton/Desktop/cs470 compSec/week05/lab05.cpp",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/verses.php",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/dbConnect.php",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/scripturesDatabase.php",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/scripturesForm.html",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/scriptureApp/scriptureStyle.css",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/assignments.html",
+		"/C/Users/Jayton/Downloads/cs31304proveCommands.sql",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/shoppingCart/shoppingCartStyle.css",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/databaseQuery.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/verses.php",
+		"/C/Users/Jayton/Desktop/queryScriptureinOrder.sql",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/web/shoppingCart/displayCart.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/conf/httpd.conf",
+		"/C/Users/Jayton/Desktop/cs470 compSec/ponder04cs470(myTestPass).cpp",
+		"/C/Users/Jayton/Desktop/cs470 compSec/ponder04cs470.cpp",
+		"/C/Users/Jayton/Downloads/lds-scriptures-psql.sql/lds-scriptures-psql.sql",
+		"/C/Users/Jayton/Desktop/RomanNumerals.cpp",
+		"/C/Users/Jayton/Desktop/cs313/cs313-php/myDbDump.sql",
+		"/C/Users/Jayton/Desktop/cs31304proveCommands.sql",
+		"/C/Users/Jayton/Downloads/team.php",
+		"/C/Users/Jayton/Downloads/team.html",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/shoppingCart/shoppingCartStyle.css",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/shoppingCart/checkout.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/shoppingCart/displayCart.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/shoppingCart/browse.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/shoppingCart/cart.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/shoppingCart/confirmation.php",
+		"/C/Users/Jayton/Desktop/shoppingCart/browse.php",
+		"/C/Bitnami/wappstack-5.6.31-0/apache2/htdocs/formHandler.php",
+		"/C/Users/Jayton/Desktop/shoppingCart/cart.php",
+		"/C/Users/Jayton/Desktop/shoppingCart/shoppingCartStyle.css",
+		"/C/Users/Jayton/Documents/week12/commercialSite17CSS.css",
+		"/C/Users/Jayton/Documents/week12/index.html",
+		"/C/Users/Jayton/Desktop/formHandler.php",
+		"/C/Users/Jayton/Desktop/formSubmission.html",
+		"/C/Users/Jayton/Documents/week11/OLDweek11/week11/problem3.php",
+		"/C/Users/Jayton/Documents/week11/week11/week11.html",
+		"/C/Users/Jayton/Documents/week11/week11/getFormData.php",
+		"/C/Users/Jayton/Documents/week11/OLDweek11/week11/problem2.php",
+		"/C/Users/Jayton/Documents/week11/OLDweek11/week11/problem1.php",
+		"/C/Users/Jayton/Desktop/homepageScript.js",
+		"/C/Users/Jayton/Desktop/homepageStyle.css",
+		"/C/Users/Jayton/Desktop/assignments.html",
+		"/C/Users/Jayton/Desktop/homepage.html",
+		"/C/Users/Jayton/Desktop/jaytonBirchTeach02cs313.html",
+		"/C/Users/Jayton/Desktop/cs313homepage/homepageScript.css.css",
+		"/C/Users/Jayton/Desktop/cs313homepage/homepageScript.css",
+		"/C/Users/Jayton/Desktop/cs313homepage/homepageStyle.js",
+		"/C/Users/Jayton/Desktop/cs313homepage/homepageScript",
+		"/C/Users/Jayton/Desktop/cs313homepage/homepageStyle",
+		"/C/Users/Jayton/Desktop/teach02.js",
+		"/C/Users/Jayton/Desktop/teach02style.css",
+		"/C/Bitnami/wappstack-5.6.31-0/docs/demo/conf/httpd-prefix.conf",
+		"/C/Bitnami/wappstack-5.6.31-0/docs/demo/conf/httpd-app.conf",
+		"/C/Bitnami/wappstack-5.6.31-0/docs/demo/conf/httpd-vhosts.conf",
+		"/C/Users/Jayton/Desktop/week12/index.html",
+		"/C/Users/Jayton/Desktop/week12/commercialSiteScript.js",
+		"/C/Users/Jayton/Desktop/megaHub/megaHub/megaHub/index.html",
+		"/C/Users/Jayton/Desktop/megaHub/megaHub/megaHub/scriptSource.js",
+		"/C/Users/Jayton/Desktop/megaHub/megaHub/megaHub/megaHubStyle.css",
+		"/C/Users/Jayton/Desktop/megaHub/megaHub/scriptSource.js",
+		"/C/Users/Jayton/Desktop/megaHub/megaHub/megaHubStyle.css",
+		"/C/Users/Jayton/Desktop/megaHub/megaHub/index.html",
+		"/C/Users/Jayton/Desktop/megaHub/megaHub/habitica-user-data.json",
+		"/C/Users/Jayton/Desktop/megaHub/index.html",
+		"/C/Users/Jayton/Desktop/megaHub/scriptSource.js",
+		"/C/Users/Jayton/Desktop/jQuery.html",
+		"/C/Users/Jayton/Desktop/megaHub/habitica-user-data.json",
+		"/C/Users/Jayton/Desktop/Week10/index.html",
+		"/C/Users/Jayton/Desktop/week12/commercialSite17CSS.css",
+		"/C/Users/Jayton/Desktop/week12/commercialSite17About.html",
+		"/C/Users/Jayton/Desktop/week12/cartPage.html",
+		"/C/Users/Jayton/Desktop/week12/checkout.html",
+		"/C/Users/Jayton/Desktop/week11/week11/getFormData.php",
+		"/C/Users/Jayton/Desktop/week11/OLDweek11/week11/problem1.php",
+		"/C/Users/Jayton/Desktop/week11/week11/week11.html",
+		"/C/Users/Jayton/Desktop/week10old/json.txt",
+		"/C/Users/Jayton/Desktop/week08/BSA.xml",
+		"/C/Users/Jayton/Desktop/ponder09/BSA.xml",
+		"/C/Users/Jayton/Desktop/teach08/problem1.xml",
+		"/C/Users/Jayton/Desktop/teach08/213.09.Teach3.xsl",
+		"/C/Users/Jayton/Desktop/teach08/213.09.Teach2.xsl",
+		"/C/Users/Jayton/Desktop/teach08/213.09.Teach1.xsl",
+		"/C/Users/Jayton/Downloads/teach09xsltransforms1.xsl",
+		"/C/Users/Jayton/Desktop/week08Teach/problem3.xml",
+		"/C/Users/Jayton/Desktop/week08Teach/problem2.dtd",
+		"/C/Users/Jayton/Downloads/BSA (1).dtd",
+		"/C/Users/Jayton/Desktop/week08Teach/problem4.xml",
+		"/C/Users/Jayton/Desktop/week06/CS 213 Week 06 Ponder and Prove2.0.html",
+		"/C/Users/Jayton/Desktop/week06/week06JavaScript.js",
+		"/C/Users/Jayton/Desktop/week05/213.05.PonderProblem.js",
+		"/C/Users/Jayton/Desktop/week07/commercialSite17About.html",
+		"/C/Users/Jayton/Desktop/week07/index.html",
+		"/C/Users/Jayton/Desktop/CS 213 Week 06 Ponder and Prove.html",
+		"/C/Users/Jayton/Desktop/week05/index.html",
+		"/C/Users/Jayton/Desktop/week04/commercialSite17CSS.css",
+		"/C/Users/Jayton/Desktop/week04/index.html",
+		"/C/Users/Jayton/Desktop/week04/rational.html",
+		"/C/Users/Jayton/Desktop/week04/commercialSite17About.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scripturesDatabase.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 28.0
+	},
+	"pinned_build_system": "",
+	"project": "scriptureAppProj.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 77.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

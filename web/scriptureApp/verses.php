@@ -7,9 +7,12 @@
 </head>
 <body>
 	<ul>
-		<li><a class="active" href="scripturesForm.html">Scriptures</a></li>
+		<li><a class="active" href="scripturesForm.php">Scriptures</a></li>
 		<li><a href="journal.php">Journal</a></li>
-		<li><a href="about.html">About</a></li>	  
+		<li><a href="about.php">About</a></li>
+		<br>
+		<br>
+		<li><a class = "logout" href="logout.php">Logout</a></li>	  
 	</ul>
 	<div class="pageContent">
 	<h1>Scripture Journal</h1>

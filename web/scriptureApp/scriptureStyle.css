@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
-form {
-	text-align: center;
-}
 
 h1 {
 	text-align: center;
@@ -66,5 +63,47 @@ tr:nth-child(even) {
     background-color: #C9C4FF;
 }
 
+.wrapper {
+    text-align: center;
+    display: block;
+    width: 50%; margin: 0 auto;
+    clear: both;
+}
 
+.button {
+    clear: both;
+}
 
+.checkbox{
+    text-align: left; 
+}
+
+.checkbox_group {
+    text-align: center;
+    width: 20%;
+ 
+}
+
+.noteForm {
+    width: 30%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign_in_form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+}
+form {
+    text-align: center;
+}
+
+.logout {
+    background-color: #f44242;
+}
