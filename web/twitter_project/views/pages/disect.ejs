@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <% include ../partials/header.ejs %>
+	 <script>
+	 	function search() {
+	 		var hashtag = $("#hashtag").val();
+	 		var params = {
+	 			hashtag: hashtag
+	 		};
+	 		$.post("/requestdata", params, function(result) {
+	 			var myJSON = JSON.parse(result);
+	 			for (var i = 0; i < myJSON.statuses.length; i++) {
+	 				$("#results").append(myJSON.statuses[i].text);
+	 			}			
+	 			var word_list = [
+        {text: "Lorem", weight: 13, link: "https://github.com/DukeLeNoir/jQCloud"},
+        {text: "Ipsum", weight: 10.5, html: {title: "My Title", "class": "custom-class"}, link: {href: "http://jquery.com/", target: "_blank"}},
+        {text: "Dolor", weight: 9.4},
+        {text: "Sit", weight: 8},
+        {text: "Amet", weight: 6.2},
+        {text: "Consectetur", weight: 5},
+        {text: "Adipiscing", weight: 5},
+        {text: "Elit", weight: 5},
+        {text: "Nam et", weight: 5},
+        {text: "Leo", weight: 4},
+        {text: "Sapien", weight: 4},
+        {text: "Pellentesque", weight: 3},
+        {text: "habitant", weight: 3},
+        {text: "morbi", weight: 3},
+        {text: "tristisque", weight: 3},
+        {text: "senectus", weight: 3},
+        {text: "et netus", weight: 3},
+        {text: "et malesuada", weight: 3},
+        {text: "fames", weight: 2},
+        {text: "ac turpis", weight: 2},
+        {text: "egestas", weight: 2},
+        {text: "Aenean", weight: 2},
+        {text: "vestibulum", weight: 2},
+        {text: "elit", weight: 2},
+        {text: "sit amet", weight: 2},
+        {text: "metus", weight: 2},
+        {text: "adipiscing", weight: 2},
+        {text: "ut ultrices", weight: 2},
+        {text: "justo", weight: 1},
+        {text: "dictum", weight: 1},
+        {text: "Ut et leo", weight: 1},
+        {text: "metus", weight: 1},
+        {text: "at molestie", weight: 1},
+        {text: "purus", weight: 1},
+        {text: "Curabitur", weight: 1},
+        {text: "diam", weight: 1},
+        {text: "dui", weight: 1},
+        {text: "ullamcorper", weight: 1},
+        {text: "id vuluptate ut", weight: 1},
+        {text: "mattis", weight: 1},
+        {text: "et nulla", weight: 1},
+        {text: "Sed", weight: 1}
+      ];
+      $(function() {
+        $("#demo").jQCloud(word_list, {
+        	 delayedMode: true
+        });
+      });
+			});
+	 	}
+	 	
+
+	 </script>
+</head>
+<body>
+
+<div class="container-fluid text-center slideanim">
+	<h1>Hashtag Disect</h1>
+	<h3>Type in hashtag to disect</h3>
+		<div class="input-group form-inline">
+			<input type="text" name="hashtag" class="form-control" id="hashtag" size="30">
+			<div class="input-group-btn">
+				<button type="submit" class="btn btn-danger" onclick="search()">Disect</button>
+			</div>
+		</div>
+	<p id='results'></p>
+	
+</div>
+<div id='demo' class="jqcloud" style="
+position: relative;
+  width: 550px;
+  height: 350px;
+  line-height: normal;"></div>
+
+</body>
+</html>

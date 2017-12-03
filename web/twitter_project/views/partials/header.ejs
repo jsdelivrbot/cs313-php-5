@@ -1,0 +1,56 @@
+<title>Twitter Data</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	<script>
+		$(window).ready(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+
+	</script>
+	<style type="text/css">
+	.slideanim {visibility:hidden;}
+	.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+	}
+	/* Go from 0% to 100% opacity (see-through) and specify the percentage 
+	from when to slide in the element along the Y-axis */
+	@keyframes slide {
+	    0% {
+	        opacity: 0;
+	        transform: translateY(70%);
+	    } 
+	    100% {
+	        opacity: 1;
+	        transform: translateY(0%);
+	    } 
+	}
+	@-webkit-keyframes slide {
+	    0% {
+	        opacity: 0;
+	        -webkit-transform: translateY(70%);
+	    } 
+	    100% {
+	        opacity: 1;
+	        -webkit-transform: translateY(0%);
+	    }
+	}
+	</style>
